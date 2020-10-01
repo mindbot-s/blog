@@ -16,7 +16,7 @@ const transform_markdown_table = (dataArr) => {
       }.${dataArr[i].title.split(' ').join('_')}.md) | ${dataArr[i].difficulty
       } | ${dataArr[i].topicTags} |`;
   }
-  return result;
+  return results;
 };
 
 module.exports = { transform_markdown_table }
